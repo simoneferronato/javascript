@@ -7,7 +7,7 @@
     <title>Primeiro JS</title>
     <style>
         body {
-            background-color: rgb(80, 80, 234);
+            background-color: rgb(80, 80, 234); /* Comentário em CSS */
             color: white;
             font-family: Arial, Helvetica, sans-serif;
             font-size: large;
@@ -21,11 +21,12 @@
     </style>
 </head>
 <body>
-    <h1>Meu primeiro JavaScript</h1>
+    <h1>Meu primeiro JavaScript</h1> <!--Cimentários em HTML-->
     <p>Olá, Mundo!</p>
     <p>Já me livrei da maldição</p>
     <script>
-        window.prompt('Qual é o seu nome?') // vai perguntar o nome. comando usado para fazer uma interação com o utilizador
+        var nome = window.prompt('Qual é o seu nome?') // manipulando dados: vai perguntar o nome e guarda-lo
+        window.alert ('É um prazer te conhecer, ' + nome + "!") //Concatenação
     </script>
 </body>
 </html>

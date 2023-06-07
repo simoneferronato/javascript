@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro JS</title>
+    <style>
+        body {
+            background-color: rgb(80, 80, 234); /* Comentário em CSS */
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(255, 255, 0, 0.811);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro JavaScript</h1> <!--Cimentários em HTML-->
+    <p>Olá, Mundo!</p>
+    <p>Já me livrei da maldição</p>
+    <script>
+       var n1 = Number(window.prompt('Digite um número:')) // string // ao usar o Number.parseInt, parse.Floot ou apenas Number, converto a string em number
+
+       var n2 = Number(window.prompt('Digite outro numero:')) // string // ao usar o Number.parseInt, parseFloot ou apenas Number, converto a string em number
+
+       // a váriavel do commando prompt convertida em um número inteiro, vai retornar um número e não uma string
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)  // concatenar com s(soma) // porém o + tem efeito de concatenação, e não de soma
+       // (number + number) para adição
+       // (string + string) para concatenação
+       // o comando prompt sempre retorna uma string, é uma característica do próprio comando
+       
+
+
+    </script>
+</body>
+</html>
